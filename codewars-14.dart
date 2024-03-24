@@ -20,5 +20,5 @@ int rowSumOddNumbers(int n) {
 }
 
 void main(List<String> args) {
-  print(rowSumOddNumbers(13));
+  print(rowSumOddNumbers(5));
 }
