@@ -6,8 +6,8 @@ String oddOrEven1(List<int> array) {
   return sum.isEven ? "even" : "odd";
 }
 
-String oddOrEven(List<int> array) => array.fold(0, (a, b) {
-      return b >= 0 ? a + b : a;
+String oddOrEven(List<int> array) => array.fold(0, (int a, int b) {
+      return a + b;
     }).isEven
         ? "even"
         : "odd";
