@@ -36,6 +36,6 @@ String latestClock(int a, int b, int c, int d) {
 }
 
 void main(List<String> args) {
-//https://www.codewars.com/kata/58925dcb71f43f30cd00005f/solutions/dart
-  print(latestClock(2, 4, 0, 0));
+  print(latestClock(2, 9, 1, 4));
 }
+//https://www.codewars.com/kata/58925dcb71f43f30cd00005f/solutions/dart
