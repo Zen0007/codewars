@@ -44,6 +44,6 @@ int nextHigher(int n) {
 }
 
 void main(List<String> args) {
-  print(nextHigher(129));
-  print(129.toRadixString(2).split('').where((e) => e == '1').length);
+  print(nextHigher(129999999));
+  //print(129.toRadixString(2).split('').where((e) => e == '1').length);
 }

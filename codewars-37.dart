@@ -21,8 +21,7 @@ int minPairSum(List<int> l) {
 }
 
 void main(List<String> args) {
-  //print(minPairSum([12, 6, 10, 26, 3, 24]));
+  print(minPairSum([12, 6, 10, 26, 3, 24]));
   print(minPairSum([5, 4, 2, 3]));
-  print(3 / 2.ceil());
 }
 //https://www.codewars.com/kata/5a523566b3bfa84c2e00010b

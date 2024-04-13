@@ -46,10 +46,7 @@ List<String> wave(String str) {
   for (var i = 0; i < str.length; i++) {
     if (str[i] != ' ') {
       List<String> chars = str.split('');
-      print("$chars //");
       chars[i] = chars[i].toLowerCase();
-      print("\n ");
-      print("*${chars[i]} ${str[i]}*");
       result.add(chars.join(''));
     }
   }
